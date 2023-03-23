@@ -1,0 +1,47 @@
+:root {
+  /* Textes */
+  --theme-detail: #e5dfc9; /*icon fonts (arrows, icons, expand/collapse) */
+  --theme-main-text: #8a8a8a; /* entity color name */
+  --text-help: #535353; /* help text color */
+  --header-text: #535353; /* color titles*/
+  --body-text: #010b13; /*color body*/
+  --link-text: #354271; /*links color (entity) */
+  --dropdown-link: #010b13; /*links color in dropdown menus*/
+  
+  /* Fond & couleurs */
+  --theme-background: #cabd8e; /*clear color background*/
+  --theme-hard-text: #968546; /*dark color background*/
+  --submenu-link: white; /*entities menus*/ 
+  --table-highlight: rgba(0,0,0,.24); /*in tables, darker lignes (entities lists)*/
+  --notification-accent: lightgray; /*tooltip background*/
+  --submenu-hover-background: yellowgreen; /* tooltip hover color */
+}
+h1, h2, h3, h4, h5, h6 {
+    /*font-family: 'WarhorseDIY', serif; /*police des titres*/
+  font-family: 'Papyrus', serif; /*general font*/
+}
+a, body {
+  font-family: 'Times New Roman', serif; /*body font */
+}
+.main-sidebar .sidebar-menu li a, .main-sidebar .sidebar-menu li span {
+  font-family: 'WarhorseDIY', serif; /*campaign left menu font */
+}
+.panel-title {
+  color: #535353; /* dashboard entity menu */
+}
+
+/*search field color font*/
+.form-control::-moz-placeholder {
+    color:black;
+    opacity:1
+}
+.form-control:-ms-input-placeholder {
+    color:black;
+}
+.form-control::-webkit-input-placeholder {
+    color:black;
+}
+
+.navigation-drawer .profile .marketplace .icon {
+  background-color: white; /* notification bar background color */
+}
